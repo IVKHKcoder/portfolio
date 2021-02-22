@@ -1,7 +1,8 @@
 * { box-sizing: border-box; }
 body {
   margin: 0;
-  background: #f2f2f2;
+  /*background: #f2f2f2;*/
+
 }
 header {
   background: white;
@@ -81,22 +82,91 @@ nav ul {
 
 .jobs {
   width: 100%;
-  height: 1000px;
-  border: 3px solid;
+  height: 800px;
+  background: #f2f2f2;
+  border-top:3px solid;
 }
 
 .job {
-  width: 280px;
+  width: 350px;
   height: 300px;
   margin: 12px;
   border: 3px solid;
+  border-radius: 20px;
   float: left;
   text-align: center;
   padding: 5px;
+  background:#b2cecf ;
 }
 
 .wrap {
   position:absolute;
-  left: 20%;
-  transform:translate(-15%)
+  left: 0%;
+  transform:translate(1%)
+}
+
+.myself {
+  width: 100%;
+  height: 700px;
+  border-bottom: 3px solid;
+  float: left;
+  position: absolute;
+/*  margin: 15px;*/
+}
+
+.myself p {
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.htmlcss {
+  width: 33%;
+  height: 200px;
+  border: 3px solid;
+  float: left;
+}
+
+.js {
+  width: 33%;
+  height: 200px;
+  border: 3px solid;
+  float: left;
+}
+
+.figma {
+  width: 33%;
+  height: 200px;
+  border: 3px solid;
+  float: left;
+}
+
+.htmlcss p {
+  text-align: center;
+  padding: 0px;
+}
+
+.js p {
+  text-align: center;
+  padding: 0px;
+}
+
+.figma p {
+  text-align: center;
+  padding: 0px;
+}
+
+.watch {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  border: 0px solid;
+  background-color: lightgreen;
+  position: relative;
+  top: 60%;
+}
+
+img {
+  width: 15%;
+  height: 30%;
+  padding: 15px;
 }
